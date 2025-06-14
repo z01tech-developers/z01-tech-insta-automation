@@ -4,7 +4,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 
 # === CONFIG ===
-groq_client = groq.Groq(api_key="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")  # 🔁 Replace with your real key
+groq_client = groq.Groq(api_key="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")  # 🔁 Replace with your real key
 
 # Google Sheets setup
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
