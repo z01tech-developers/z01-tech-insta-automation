@@ -15,3 +15,6 @@ def run_bot():
     insert_quote.main()
     fetch_pexels_video.main()
     return "✅ Quote + Video added to Google Sheets!"
+@app.route('/')
+def home():
+    return "✅ Luxury IG Bot is running (v2)!"
